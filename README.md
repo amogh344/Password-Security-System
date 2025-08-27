@@ -107,7 +107,7 @@ Follow these steps to set up the project locally.
 
 🔧 Environment Variables
 
-Create a .env file in /server:
+
 
 PORT=5001
 MONGO_URI=your_mongodb_connection_string
