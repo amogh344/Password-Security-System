@@ -13,6 +13,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application that analyzes p
 ⸻
 
 ✨ Features
+
 	•	🔑 Secure User Authentication – Registration & login system with JWT session management
 
 	•	🤖 Hybrid AI Password Analysis:
@@ -32,6 +33,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application that analyzes p
 🛠️ Tech Stack
 
 🔙 Backend
+
 	•	Node.js – JavaScript runtime
 
 	•	Express.js – Web framework
@@ -49,6 +51,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application that analyzes p
 	•	axios – External API calls
 
 🎨 Frontend
+
 	•	React.js – UI library
 
 	•	Material-UI (MUI) – UI components
@@ -60,6 +63,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application that analyzes p
 ⸻
 
 🌍 Deployment
+
 	•	Backend: Render
 	•	Frontend: Netlify
 
@@ -70,6 +74,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application that analyzes p
 Follow these steps to set up the project locally.
 
 ✅ Prerequisites
+
 	•	Node.js & npm (or yarn)
 	•	MongoDB Atlas account
 
