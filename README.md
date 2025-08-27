@@ -5,35 +5,36 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application that analyzes p
 ⸻
 
 🚀 Live Demo
-	•	Frontend: Live Site 
-	•	Backend API: API Endpoint
+
+🌐 Frontend: Live Site 
+⚙️ Backend API: API Endpoint
 
 ⸻
 
 ✨ Features
-	•	🔑 Secure User Authentication – Full registration & login system with JWT for session management.
+	•	🔑 Secure User Authentication – Registration & login system with JWT session management
 	•	🤖 Hybrid AI Password Analysis:
-	•	Complexity Check: Uses zxcvbn to analyze complexity, patterns & entropy.
-	•	Data Breach Check: Integrates with the Have I Been Pwned API to check if a password has appeared in known breaches.
-	•	Real-Time Feedback: Instant analysis while typing, including strength score, crack-time estimate & suggestions.
-	•	🛡️ Protected Routes – Dashboard accessible only to authenticated users.
-	•	🌐 RESTful API – Secure, structured backend with Express.
+	•	🧮 Complexity Check – Powered by zxcvbn
+	•	🔎 Data Breach Check – Integrates with Have I Been Pwned API
+	•	⚡ Real-Time Feedback – Strength score, crack-time estimate & suggestions
+	•	🛡️ Protected Routes – Dashboard access only for authenticated users
+	•	🌐 RESTful API – Built with Express.js
 
 ⸻
 
 🛠️ Tech Stack
 
-Backend
+🔙 Backend
 	•	Node.js – JavaScript runtime
 	•	Express.js – Web framework
 	•	MongoDB – NoSQL database
-	•	Mongoose – MongoDB ODM
-	•	JWT (jsonwebtoken) – Secure authentication
+	•	Mongoose – ODM for MongoDB
+	•	JWT – Authentication with jsonwebtoken
 	•	bcrypt.js – Password hashing
-	•	zxcvbn – Password strength estimation
-	•	axios – External API requests
+	•	zxcvbn – Password strength estimator
+	•	axios – External API calls
 
-Frontend
+🎨 Frontend
 	•	React.js – UI library
 	•	Material-UI (MUI) – UI components
 	•	React Router – Client-side routing
@@ -52,69 +53,65 @@ Frontend
 Follow these steps to set up the project locally.
 
 ✅ Prerequisites
-	•	Install Node.js & npm (or yarn)
-	•	A MongoDB Atlas account & connection string
-	•	(Optional) A Hugging Face account & API Key
+	•	Node.js & npm (or yarn)
+	•	MongoDB Atlas account
+	•	(Optional) Hugging Face API Key
 
 📥 Installation & Setup
-	1.	Clone the repository:
+
+1️⃣ Clone the repository:
 
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
 
-	2.	Backend Setup:
+2️⃣ Backend Setup:
 
 cd server
 npm install
 
-# Create a .env file in /server and add required environment variables
+# Create a .env file in /server and add environment variables
 npm run dev
 
-	3.	Frontend Setup:
+3️⃣ Frontend Setup:
 
 cd client
 npm install
 npm start
 
-	•	Frontend runs on http://localhost:3000
-	•	Backend runs on http://localhost:5001
+	•	Frontend → http://localhost:3000
+	•	Backend → http://localhost:5001
 
 ⸻
 
 🔧 Environment Variables
 
-Create a .env file inside /server with the following:
+Create a .env file in /server:
 
-# Server Port
 PORT=5001
-
-# MongoDB Connection URI
 MONGO_URI=your_mongodb_connection_string
-
-# JWT Secret Key (long, random string)
 JWT_SECRET=your_jwt_secret_key
-
-# (Optional - Hugging Face API)
+# Optional: Hugging Face
 HUGGING_FACE_API_KEY=your_hugging_face_api_key
 
-⚠️ Do not commit this file to version control.
+⚠️ Do not commit .env to version control.
 
 ⸻
 
 📌 Roadmap
-	•	Add multi-language support for feedback messages
-	•	Enhance UI with password strength visualization charts
-	•	Implement 2FA for stronger account security
-	•	Add support for OAuth (Google/GitHub login)
+	•	🌍 Multi-language support for feedback messages
+	•	📊 Password strength visualization charts
+	•	🔐 Two-Factor Authentication (2FA)
+	•	🔗 OAuth login (Google/GitHub)
 
 ⸻
 
 🤝 Contributing
 
-Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to improve.
+Contributions are welcome!
+Open an issue or submit a pull request 🚀
 
 ⸻
 
 📜 License
 
-This project is licensed under the MIT License.
+Licensed under the MIT License.
