@@ -7,17 +7,24 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application that analyzes p
 🚀 Live Demo
 
 🌐 Frontend: Live Site 
+
 ⚙️ Backend API: API Endpoint
 
 ⸻
 
 ✨ Features
 	•	🔑 Secure User Authentication – Registration & login system with JWT session management
+
 	•	🤖 Hybrid AI Password Analysis:
+
 	•	🧮 Complexity Check – Powered by zxcvbn
+    
 	•	🔎 Data Breach Check – Integrates with Have I Been Pwned API
+
 	•	⚡ Real-Time Feedback – Strength score, crack-time estimate & suggestions
+
 	•	🛡️ Protected Routes – Dashboard access only for authenticated users
+
 	•	🌐 RESTful API – Built with Express.js
 
 ⸻
@@ -26,18 +33,28 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application that analyzes p
 
 🔙 Backend
 	•	Node.js – JavaScript runtime
+
 	•	Express.js – Web framework
+
 	•	MongoDB – NoSQL database
+
 	•	Mongoose – ODM for MongoDB
+
 	•	JWT – Authentication with jsonwebtoken
+
 	•	bcrypt.js – Password hashing
+
 	•	zxcvbn – Password strength estimator
+
 	•	axios – External API calls
 
 🎨 Frontend
 	•	React.js – UI library
+
 	•	Material-UI (MUI) – UI components
+
 	•	React Router – Client-side routing
+
 	•	Axios – API communication
 
 ⸻
@@ -61,25 +78,26 @@ Follow these steps to set up the project locally.
 
 1️⃣ Clone the repository:
 
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+    git clone https://github.com/your-username/your-repo-name.git
+    cd your-repo-name
 
 2️⃣ Backend Setup:
 
-cd server
-npm install
+    cd server
+    npm install
 
 # Create a .env file in /server and add environment variables
-npm run dev
+    npm run dev
 
 3️⃣ Frontend Setup:
 
-cd client
-npm install
-npm start
+    cd client
+    npm install
+    npm start
 
-	•	Frontend → http://localhost:3000
-	•	Backend → http://localhost:5001
+•	Frontend → http://localhost:3000
+
+•	Backend → http://localhost:5001
 
 ⸻
 
@@ -89,18 +107,22 @@ Create a .env file in /server:
 
 PORT=5001
 MONGO_URI=your_mongodb_connection_string
+
 JWT_SECRET=your_jwt_secret_key
-# Optional: Hugging Face
-HUGGING_FACE_API_KEY=your_hugging_face_api_key
+
 
 ⚠️ Do not commit .env to version control.
 
 ⸻
 
 📌 Roadmap
+
 	•	🌍 Multi-language support for feedback messages
+
 	•	📊 Password strength visualization charts
+
 	•	🔐 Two-Factor Authentication (2FA)
+
 	•	🔗 OAuth login (Google/GitHub)
 
 ⸻
