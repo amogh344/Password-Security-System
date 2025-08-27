@@ -72,14 +72,13 @@ Follow these steps to set up the project locally.
 ✅ Prerequisites
 	•	Node.js & npm (or yarn)
 	•	MongoDB Atlas account
-	•	(Optional) Hugging Face API Key
 
 📥 Installation & Setup
 
 1️⃣ Clone the repository:
 
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/amogh344/Password-Security-System.git
+    cd Password-Security-System
 
 2️⃣ Backend Setup:
 
