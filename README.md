@@ -1,105 +1,89 @@
-AI-Powered Password Security System
+🔐 AI-Powered Password Security System
 
-This is a full-stack MERN (MongoDB, Express, React, Node.js) application designed to analyze password strength using a sophisticated, multi-layered AI approach. It provides real-time feedback to users, helping them create stronger and more secure passwords.
+A full-stack MERN (MongoDB, Express, React, Node.js) application that analyzes password strength using a multi-layered AI approach. It provides real-time feedback to help users create stronger and more secure passwords.
 
-Live Demo Links:
+⸻
 
-Frontend: https://tiny-melomakarona-0c4fdb.netlify.app/
+🚀 Live Demo
+	•	Frontend: Live Site 
+	•	Backend API: API Endpoint
 
-Backend API: https://password-security-system.onrender.com
+⸻
 
-Features
-Secure User Authentication: Full registration and login system with JWT (JSON Web Tokens) for session management.
+✨ Features
+	•	🔑 Secure User Authentication – Full registration & login system with JWT for session management.
+	•	🤖 Hybrid AI Password Analysis:
+	•	Complexity Check: Uses zxcvbn to analyze complexity, patterns & entropy.
+	•	Data Breach Check: Integrates with the Have I Been Pwned API to check if a password has appeared in known breaches.
+	•	Real-Time Feedback: Instant analysis while typing, including strength score, crack-time estimate & suggestions.
+	•	🛡️ Protected Routes – Dashboard accessible only to authenticated users.
+	•	🌐 RESTful API – Secure, structured backend with Express.
 
-Hybrid AI Password Analysis:
+⸻
 
-Complexity Check: Uses the zxcvbn library to analyze password complexity, patterns, and entropy.
+🛠️ Tech Stack
 
-Data Breach Check: Integrates with the "Have I Been Pwned" API to check if a password has appeared in any known data breaches.
-
-Real-Time Feedback: The frontend provides instant analysis as the user types, including a strength score, a "time to crack" estimate, and actionable suggestions.
-
-Protected Routes: The main dashboard is a protected route, accessible only to authenticated users.
-
-RESTful API: A secure and well-structured backend API built with Node.js and Express.
-
-Technology Stack
 Backend
-Node.js: JavaScript runtime environment.
-
-Express.js: Web framework for Node.js.
-
-MongoDB: NoSQL database for storing user data.
-
-Mongoose: Object Data Modeling (ODM) library for MongoDB.
-
-JWT (jsonwebtoken): For secure user authentication.
-
-bcrypt.js: For password hashing.
-
-zxcvbn: For advanced password strength estimation.
-
-axios: For making requests to external APIs.
+	•	Node.js – JavaScript runtime
+	•	Express.js – Web framework
+	•	MongoDB – NoSQL database
+	•	Mongoose – MongoDB ODM
+	•	JWT (jsonwebtoken) – Secure authentication
+	•	bcrypt.js – Password hashing
+	•	zxcvbn – Password strength estimation
+	•	axios – External API requests
 
 Frontend
-React.js: A JavaScript library for building user interfaces.
+	•	React.js – UI library
+	•	Material-UI (MUI) – UI components
+	•	React Router – Client-side routing
+	•	Axios – API communication
 
-Material-UI (MUI): A comprehensive React UI component library.
+⸻
 
-React Router: For client-side routing and navigation.
+🌍 Deployment
+	•	Backend: Render
+	•	Frontend: Netlify
 
-Axios: For making HTTP requests to the backend API.
+⸻
 
-Deployment
-Backend: Deployed on Render.
+⚡ Getting Started
 
-Frontend: Deployed on Netlify.
+Follow these steps to set up the project locally.
 
-Getting Started
-Follow these instructions to get a local copy of the project up and running for development and testing purposes.
+✅ Prerequisites
+	•	Install Node.js & npm (or yarn)
+	•	A MongoDB Atlas account & connection string
+	•	(Optional) A Hugging Face account & API Key
 
-Prerequisites
-Node.js and npm (or yarn) installed on your machine.
+📥 Installation & Setup
+	1.	Clone the repository:
 
-A free MongoDB Atlas account and connection string.
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
 
-A free Hugging Face account and API Key (if using that version).
+	2.	Backend Setup:
 
-Installation & Setup
-Clone the repository:
-
-git clone https://github.com/amogh344/Password-Security-System.git
-cd Password-Security-System
-
-Backend Setup:
-
-# Navigate to the server directory
 cd server
-
-# Install dependencies
 npm install
 
-# Create a .env file in the /server directory
-# and add the environment variables (see below)
-
-# Start the backend server
+# Create a .env file in /server and add required environment variables
 npm run dev
 
-Frontend Setup:
+	3.	Frontend Setup:
 
-# Navigate to the client directory from the root
 cd client
-
-# Install dependencies
 npm install
-
-# Start the React development server
 npm start
 
-The frontend will be available at http://localhost:3000 and the backend at http://localhost:5001.
+	•	Frontend runs on http://localhost:3000
+	•	Backend runs on http://localhost:5001
 
-Environment Variables
-You need to create a .env file in the /server directory and add the following keys. Do not commit this file to version control.
+⸻
+
+🔧 Environment Variables
+
+Create a .env file inside /server with the following:
 
 # Server Port
 PORT=5001
@@ -107,6 +91,30 @@ PORT=5001
 # MongoDB Connection URI
 MONGO_URI=your_mongodb_connection_string
 
-# JWT Secret Key (generate a long, random string)
+# JWT Secret Key (long, random string)
 JWT_SECRET=your_jwt_secret_key
 
+# (Optional - Hugging Face API)
+HUGGING_FACE_API_KEY=your_hugging_face_api_key
+
+⚠️ Do not commit this file to version control.
+
+⸻
+
+📌 Roadmap
+	•	Add multi-language support for feedback messages
+	•	Enhance UI with password strength visualization charts
+	•	Implement 2FA for stronger account security
+	•	Add support for OAuth (Google/GitHub login)
+
+⸻
+
+🤝 Contributing
+
+Pull requests are welcome! For major changes, open an issue first to discuss what you’d like to improve.
+
+⸻
+
+📜 License
+
+This project is licensed under the MIT License.
