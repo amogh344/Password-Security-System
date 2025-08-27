@@ -90,7 +90,7 @@ Follow these steps to set up the project locally.
     cd server
     npm install
 
-# Create a .env file in /server and add environment variables
+
     npm run dev
 
 3️⃣ Frontend Setup:
